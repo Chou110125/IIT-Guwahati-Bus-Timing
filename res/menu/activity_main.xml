@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item android:id="@+id/refresh" 
+        android:title="@string/context_menu_refresh" />
+    <item android:id="@+id/FindBus" android:title="@string/options_find_bus"></item><item android:id="@+id/holidays" android:title="@string/options_holidays"></item><item android:id="@+id/specBus" android:title="@string/options_specbus"></item>
+    <item android:id="@+id/about" android:title="@string/options_menu_about"></item>
+    
+    
+    
+</menu>

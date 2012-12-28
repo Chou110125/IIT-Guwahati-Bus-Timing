@@ -1,0 +1,90 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layout_main" >
+
+    <Button
+        android:id="@+id/from"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:drawableRight="@drawable/corner_right_bottom"
+        android:onClick="onClick"
+        android:text="@string/from_campus" />
+
+    <Button
+        android:id="@+id/down_bus1"
+        style="@style/subButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/demo_bus_time" />
+
+    <Button
+        android:id="@+id/down_bus2"
+        style="@style/subButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/demo_bus_time" />
+
+    <Button
+        android:id="@+id/down_bus3"
+        style="@style/subButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/demo_bus_time" />
+
+    <Button
+        android:id="@+id/to"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/px"
+        android:drawableLeft="@android:drawable/ic_menu_revert"
+        android:drawableRight="@drawable/corner_right_bottom"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:text="@string/to_campus"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/up_bus1"
+        style="@style/subButton"
+        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_bus_time" />
+
+    <Button
+        android:id="@+id/up_bus2"
+        style="@style/subButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/demo_bus_time" />
+
+    <Button
+        android:id="@+id/up_bus3"
+        style="@style/subButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/demo_bus_time" />
+
+    <TextView
+        android:id="@+id/bottomTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_bus_time" />
+
+</LinearLayout>
+</ScrollView>
